@@ -1,4 +1,4 @@
-import Loading from "./components/Animation/Loading";
+import Loading from './components/Animations/Loading';
 import { useAuth } from "./contexts/AuthContext";
 import { Navigate, Outlet } from "react-router-dom";
 

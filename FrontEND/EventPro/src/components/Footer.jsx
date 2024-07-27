@@ -12,7 +12,7 @@ const Footer = () => {
         <p>&copy; 2024 EventPro. Todos los derechos reservados.</p>
         <div className="mt-4 text-center">
           <a
-            href="https://github.com/Juanjalvarezz/EventPro"
+            href="https://github.com/Endelkys/PWA-EventPro"
             className="text-secondary-700 dark:text-secondary-50 hover:text-blue-800 hover:underline mr-4"
           >
             Github

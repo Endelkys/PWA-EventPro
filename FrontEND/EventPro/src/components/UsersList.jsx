@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
-import Loading from './Animation/Loading'
+import Loading from './Animations/Loading'
 
 const UsersList = () => {
   const [users, setUsers] = useState([]);

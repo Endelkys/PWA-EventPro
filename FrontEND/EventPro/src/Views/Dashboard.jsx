@@ -1,14 +1,14 @@
 import Footer from '../components/Footer';
 import Header from '../components/Header/Header';
 import DashboardCards from '../components/Dashboard/DashboardCards';
-import AnimatedPage from '../components/Animation/AnimatedPage';
+import AnimatedPage from '../components/Animations/AnimatedPage';
 import { useAuth } from '../contexts/AuthContext';
 import UserContent from '../components/Dashboard/UserContent';
-import ScrollToTopButton from '../components/Animation/ScrollToTopButton';
+import ScrollToTopButton from '../components/Animations/AnimatedPage'
 import EventCard from '../components/Eventos/EventCard';
 import { getEventsStatus } from '../utils/eventRequest';
 import { useState, useEffect } from 'react';
-import Loading from '../components/Animation/Loading'
+import Loading from '../components/Animations/Loading'
 
 const Dashboard = () => {
   const { user } = useAuth();

@@ -5,10 +5,10 @@ import { useAuth } from '../contexts/AuthContext'
 import { useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
-import AnimatedPage from '../components/Animation/AnimatedPage';
+import AnimatedPage from '../components/Animations/AnimatedPage';
 import FormRequest from '../components/Solicitudes/FormRequest'
 import Solicitudes from '../components/Solicitudes/Solicitudes';
-import ScrollToTopButton from '../components/Animation/ScrollToTopButton';
+import ScrollToTopButton from '../components/Animations/ScrollToTopButton';
 import { useLocation } from 'react-router-dom';
 
 function Solicitud() {

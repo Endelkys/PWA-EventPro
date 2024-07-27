@@ -3,8 +3,8 @@ import Footer from "../components/Footer";
 import { getEventsStatus } from "../utils/eventRequest";
 import { useEffect, useState } from "react";
 import { useAuth } from "../contexts/AuthContext";
-import ScrollToTopButton from "../components/Animation/ScrollToTopButton";
-import Loading from "../components/Animation/Loading";
+import ScrollToTopButton from '../components/Animations/ScrollToTopButton';
+import Loading from "../components/Animations/Loading";
 import EventCard from "../components/Eventos/EventCard";
 
 function Eventos() {

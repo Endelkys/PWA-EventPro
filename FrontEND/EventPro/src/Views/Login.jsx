@@ -2,12 +2,12 @@ import React from "react";
 import { useState, useEffect } from "react";
 import Footer from "../components/Footer";
 import Header from "../components/Header/Header";
-import AnimatedPage from "../components/Animation/AnimatedPage";
+import AnimatedPage from "../components/Animations/AnimatedPage";
 import { useAuth } from "../contexts/AuthContext";
 import { useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import ScrollToTopButton from "../components/Animation/ScrollToTopButton";
+import ScrollToTopButton from "../components/Animations/ScrollToTopButton";
 
 const Login = () => {
   const { login, user, isAuthenticated, errors } = useAuth();
