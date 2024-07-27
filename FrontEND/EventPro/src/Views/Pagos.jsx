@@ -6,12 +6,12 @@ import { toast, ToastContainer } from 'react-toastify';
 import { useAuth } from '../contexts/AuthContext';
 import { useLocation } from 'react-router-dom';
 
-import AnimatedPage from '../components/Animation/AnimatedPage';
-import ScrollToTopButton from '../components/Animation/ScrollToTopButton';
+import AnimatedPage from '../components/Animations/AnimatedPage';
+import ScrollToTopButton from '../components/Animations/ScrollToTopButton';
 
 import { getPaymentRecords } from '../utils/paymentRequest';
 import PaymentCard from '../components/Pagos/PaymentCard';
-import Loading from '../components/Animation/Loading';
+import Loading from '../components/Animations/Loading';
 import PagosUser from '../components/Pagos/Pagos';
 
 function Pagos() {

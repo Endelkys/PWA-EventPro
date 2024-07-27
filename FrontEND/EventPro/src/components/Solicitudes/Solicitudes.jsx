@@ -1,7 +1,7 @@
 import { getEventByPromotor, getEventsStatus, deleteEvent } from "../../utils/eventRequest";
 import { useAuth } from "../../contexts/AuthContext";
 import { useEffect, useState } from "react";
-import Loading from "../Animation/Loading";
+import Loading from "../Animations/Loading";
 import ModalConfirm from '../ModalConfirm';
 
 function Solicitudes({ setAccepted, updateEvents, setUpdateEvents }) {

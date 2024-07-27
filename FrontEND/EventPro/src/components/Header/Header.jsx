@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from "./Nav";
-import ProgressBar from "../Animation/ProgressBar";
+import ProgressBar from "../Animations/ProgressBar";
 
 const logo = "Logo.png"
 

@@ -5,8 +5,8 @@ import LandingCard from '../components/LandingPage/LandingCard'
 import Footer from '../components/Footer'
 import { useAuth } from '../contexts/AuthContext';
 import { useNavigate } from 'react-router-dom'
-import AnimatedPage from '../components/Animation/AnimatedPage'
-import ScrollToTopButton from '../components/Animation/ScrollToTopButton'
+import AnimatedPage from '../components/Animations/AnimatedPage'
+import ScrollToTopButton from '../components/Animations/ScrollToTopButton'
 
 function LandingPage() {
   const { user } = useAuth();

@@ -2,9 +2,9 @@ import { useEffect, useState } from 'react';
 import Footer from '../components/Footer';
 import Header from '../components/Header/Header';
 import cd from '/cd.png';
-import AnimatedPage from '../components/Animation/AnimatedPage';
+import AnimatedPage from '../components/Animations/AnimatedPage';
 import { useAuth } from '../contexts/AuthContext';
-import ScrollToTopButton from '../components/Animation/ScrollToTopButton';
+import ScrollToTopButton from '../components/Animations/ScrollToTopButton';
 
 const Profile = () => {
   const { user, editUser } = useAuth();

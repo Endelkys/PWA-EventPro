@@ -2,11 +2,11 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from 'react-router-dom'
 import Footer from "../components/Footer";
 import Header from "../components/Header/Header";
-import AnimatedPage from "../components/Animation/AnimatedPage";
+import AnimatedPage from '../components/Animations/AnimatedPage.jsx';
 import { useAuth } from "../contexts/AuthContext.jsx";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import ScrollToTopButton from "../components/Animation/ScrollToTopButton.jsx";
+import ScrollToTopButton from "../components/Animations/ScrollToTopButton.jsx";
 
 const Register = () => {
   const [name, setName] = useState("");

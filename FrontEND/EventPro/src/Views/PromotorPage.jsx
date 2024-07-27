@@ -1,5 +1,5 @@
-import AnimatedPage from '../components/Animation/AnimatedPage'
-import ScrollToTopButton from '../components/Animation/ScrollToTopButton'
+import AnimatedPage from '../components/Animations/AnimatedPage'
+import ScrollToTopButton from '../components/Animations/ScrollToTopButton'
 import DashboardCards from '../components/Dashboard/DashboardCards'
 import UserContent from '../components/Dashboard/UserContent'
 import Footer from '../components/Footer'

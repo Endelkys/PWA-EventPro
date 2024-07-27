@@ -24,33 +24,33 @@ function About() {
             <div className="flex flex-col items-center space-y-4">
               <img
                 className="h-40 w-40 rounded-full shadow-xl shadow-gray-300 hover:animate-pulse"
-                src="https://i.ibb.co/GV7GxCZ/avatar1105266211.jpg"
+                src="../../public/Foto Endelkys Perfil.jpeg"
                 alt="Team member 1"
               />
               <h2 className="text-2xl lg:text-3xl font-bold text-secondary-50">
-                Juan González
+                Endelkys Matos
               </h2>
               <p className="dark:text-secondary-200 text-secondary-600 font-bold">CEO & Fundador</p>
             </div>
             <div className="flex flex-col items-center space-y-4">
               <img
                 className="h-40 w-40 rounded-full shadow-xl shadow-gray-300 hover:animate-pulse"
-                src="https://i.ibb.co/t29p6jp/avatar1473660530.jpg"
+                src="../../public/Foto Daniel Perfil.jpeg"
                 alt="Team member 2"
               />
               <h2 className="text-2xl lg:text-3xl font-bold text-secondary-50">
-                Juan Sarmiento
+                Daniel Rendon
               </h2>
               <p className="dark:text-secondary-200 text-secondary-600 font-bold">CEO & Fundador</p>
             </div>
             <div className="flex flex-col items-center space-y-4">
               <img
                 className="h-40 w-40 rounded-full shadow-xl shadow-gray-300 hover:animate-pulse"
-                src="https://i.ibb.co/s3F1qsr/avatar1045924273.jpg"
-                alt="Team member 3"
+                src="../../public/Foto Juan Perfil.jpeg"
+                alt="Team member 3" 
               />
               <h2 className="text-2xl lg:text-3xl font-bold text-secondary-50">
-                Leonardo Méndez
+                Juan Simonaro
               </h2>
               <p className="dark:text-secondary-200 text-secondary-600 font-bold">CEO & Fundador</p>
             </div>

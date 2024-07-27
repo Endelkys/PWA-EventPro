@@ -1,8 +1,8 @@
 import Footer from '../components/Footer';
 import Header from '../components/Header/Header';
 import UsersList from '../components/UsersList';
-import AnimatedPage from '../components/Animation/AnimatedPage';
-import ScrollToTopButton from '../components/Animation/ScrollToTopButton';
+import AnimatedPage from '../components/Animations/AnimatedPage';
+import ScrollToTopButton from '../components/Animations/ScrollToTopButton';
 
 function AdminUsers() {
   return (

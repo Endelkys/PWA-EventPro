@@ -1,13 +1,13 @@
 import Header from '../components/Header/Header'
 import Footer from '../components/Footer'
 import { useAuth } from '../contexts/AuthContext'
-import ScrollToTopButton from '../components/Animation/ScrollToTopButton';
-import AnimatedPage from '../components/Animation/AnimatedPage';
+import ScrollToTopButton from '../components/Animations/ScrollToTopButton';
+import AnimatedPage from '../components/Animations/AnimatedPage';
 import { getPaymentRecordsUser } from '../utils/paymentRequest';
 import { getEventsSold } from '../utils/eventRequest';
 import { useEffect, useState } from 'react';
 import TicketCard from '../components/Boletos/TicketCard';
-import Loading from '../components/Animation/Loading';
+import Loading from '../components/Animations/Loading';
 import EventCard from '../components/Eventos/EventCard';
 
 function Boletos() {

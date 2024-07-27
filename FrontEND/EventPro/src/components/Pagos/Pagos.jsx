@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { createPaymentRecord } from '../../utils/paymentRequest';
 import { toast, ToastContainer } from 'react-toastify'
-import Loading from '../Animation/Loading';
+import Loading from '../Animations/Loading';
 
 function Pagos({ event }) {
   const [selectedPayment, setSelectedPayment] = useState('PagoMovil');
