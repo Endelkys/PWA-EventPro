@@ -108,11 +108,11 @@ Conectado a la BD`
 
 Para el archivo .env, se utilizaron los siguientes datos:
 
-MONGODB_USERNAME=juansimonaro
-MONGODB_PASS=Bpyu51Dd3HPps9IY
-MONGODB_CLUSTER=testing.cj7dkfm
-MONGODB_DBNAME=EventPro
-SECRET_KEY=VOaz0uWdAPgf6h8M4HCeSokIBdCnNg
+- MONGODB_USERNAME=juansimonaro
+- MONGODB_PASS=Bpyu51Dd3HPps9IY
+- MONGODB_CLUSTER=testing.cj7dkfm
+- MONGODB_DBNAME=EventPro
+- SECRET_KEY=VOaz0uWdAPgf6h8M4HCeSokIBdCnNg
 
 ## Autores.
 
