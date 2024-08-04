@@ -82,8 +82,6 @@ Todos los datos de la app están alojados en una base de datos en **MongoDB** pa
 
 - Configura la conexión a la base de datos *MongoDB* conectandola en *MongoDb Compass*.
 
-- Para ello accede a la url de database mongodb+srv://${MONGODB_NAME}:${MONGODB_PASS}@eventpro.j9agcmc.mongodb.net/${MONGODB_NAME}
-
 - Tanto ${MONGODB_NAME} como ${MONGODB_PASS} deben ser reemplazados por sus valores en .env.    
 
 - Ahora regresa al Visual Studio Code y dirígete a la sección inferior del mismo en las terminales.  
@@ -96,7 +94,7 @@ Conectado a la BD`
 
 - Inicia la aplicación con el comando npm run build seguido de npm run preview en la terminal FrontEnd.
 
-- En la terminal Frontend te saldrá un mensaje que dirá: http://localhost:3000/.
+- En la terminal Frontend te saldrá un mensaje que dirá: http://localhost:3010/.
 
 - Accede a él para ser redirigido a la página principal de la app en tu navegador predeterminado.
 
@@ -105,6 +103,16 @@ Conectado a la BD`
 - Se debe iniciar nuevamente el npm run preview para poder utilizar la pwa.
 
 - Por último, *Disfruta de la Aplicación*.
+
+## Nota.
+
+Para el archivo .env, se utilizaron los siguientes datos:
+
+MONGODB_USERNAME=juansimonaro
+MONGODB_PASS=Bpyu51Dd3HPps9IY
+MONGODB_CLUSTER=testing.cj7dkfm
+MONGODB_DBNAME=EventPro
+SECRET_KEY=VOaz0uWdAPgf6h8M4HCeSokIBdCnNg
 
 ## Autores.
 
